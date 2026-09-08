@@ -1,0 +1,58 @@
+h1.grčka{
+    color:rgb(0, 0, 0)
+}
+h1{
+    font-size: 170px;
+}
+p.test1 {
+white-space: nowrap;
+width: 200px;
+border: 1px solid #000000;
+overflow: hidden;
+text-overflow: clip;
+}
+p.test2 {
+white-space: nowrap;
+width: 200px;
+border: 1px solid #000000;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+p:hover {
+  overflow: visible;
+}
+p.test {
+width: 11em;
+border: 1px solid #000000;
+word-wrap: break-word;
+}
+
+h2{
+    font-size: 30px;
+    text-shadow: 0 0 3px rgb(238, 203, 203), 0 0 5px rgb(247, 31, 182)
+}
+p{
+    font-size: 16px;
+}
+p.box{
+box-shadow: 10px 10px lightpink;
+background-color: rgb(235, 4, 81);
+}
+p.box2{
+box-shadow: 5px 5px rgb(132, 132, 250), 10px 10px rgb(247, 111, 111), 15px 15px rgb(113, 248, 113);
+background-color: rgb(250, 217, 173);
+}
+.footer {
+  background-color: #7ec9fb;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  position: fixed;      
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+div {
+  transform: translate(50px, 100px);
+}
