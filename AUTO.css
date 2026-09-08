@@ -1,0 +1,178 @@
+
+.alo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+img{
+    width:300px;
+    display:block;
+    margin:auto;
+}
+
+img{
+  background-color:rgba(255, 255, 255, 0.411);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#b10202                ;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #ffffff7c;
+  color:black;
+}
+
+ul li a.active {
+  background-color: rgb(182, 182, 182);
+}
+
+header{
+  background-color:rgb(228, 227, 227);
+}
+
+h1{
+  font-size:150px;
+  color:white;
+  background-color:black;
+}
+
+div.ti{
+  background-image: url(auto1.jpg);
+}
+
+footer{
+  background-color:#b10202;
+  padding:40px;
+  color:white;
+  font-size:20px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Kontejner za slike */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Stil za slike */
+.image-row img {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.3s, filter 0.3s;
+  border-radius: 10px;
+  background-color: rgba(230, 230, 230, 0.459);
+}
+
+/* Hover efekt */
+.image-row img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+ background-color: rgb(255, 255, 255);
+}
+
+h2{
+  align-items:center;
+  font-size: larger;
+}
+
+.kontakt{
+  background-color:rgb(182, 182, 182);
+  padding:60px;
+  font-size:20px;
+  border:2px solid rgb(151, 32, 32);
+}
+
+.kontakt2{
+  background-color:rgb(182, 182, 182);
+  padding:60px;
+  border:2px solid red;
+}
+
+body{
+  background:rgb(0, 0, 0);
+}
+
+.naslov{
+  color:white;
+}
+
+span{
+  color:red;
+}
+
+
+/* GRID */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* KARTICA */
+.card {
+  background-color: #1e293b;
+  width: 23%;
+  margin: 1%;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+/* HOVER NA KARTICI */
+.card:hover {
+  background-color: #334155; /* posvijetli */
+}
+
+/* GUMB */
+.button {
+  display: block;
+  text-align: center;
+  background-color: #475569;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+/* HOVER NA GUMBU */
+.button:hover {
+  background-color: #64748b; /* posvijetli kad pređe miš */
+}
+
+.mustang{
+  background-color:white;
+}
+
+.slika{
+  background-image: url(ato.jpg);
+  background-repeat: no-repeat;
+  background-color:rgb(182, 182, 182);
+  opacity:0.7;
+  align-items:center;
+}
+
+.tekst{
+  background-color:rgba(255, 255, 255, 0.744);
+  font-size:20px;
+}
